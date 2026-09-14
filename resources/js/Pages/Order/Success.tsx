@@ -4,6 +4,7 @@ import { usePrice } from '@/lib/format';
 import { Head, Link } from '@inertiajs/react';
 import {
     CheckCircle2,
+    FileText,
     Mail,
     Package,
     ShieldCheck,
@@ -219,6 +220,15 @@ export default function OrderSuccess({ order }: OrderSuccessProps) {
                         </div>
 
                         <div className="flex flex-col gap-3">
+                            <a
+                                href={route('orders.invoice', order.orderNumber)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex h-12 w-full items-center justify-center gap-2 rounded border border-line bg-paper px-6 text-xs font-bold uppercase tracking-widest text-ink shadow-sm transition-colors hover:bg-surface hover:border-ink"
+                            >
+                                <FileText className="h-4 w-4 text-forest" />
+                                Download PDF Invoice
+                            </a>
                             <Link
                                 href={route('catalog')}
                                 className="flex h-12 w-full items-center justify-center rounded bg-ink px-6 text-xs font-bold uppercase tracking-widest text-paper shadow transition-colors hover:bg-ink/90"

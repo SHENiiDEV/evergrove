@@ -12,6 +12,7 @@ use App\Mail\OrderShippedMail;
 use App\Models\Order;
 use App\Models\OrderItem;
 use App\Support\ProductCatalog;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -31,6 +32,7 @@ Route::post('/cart/coupon/apply', [CartController::class, 'applyCoupon'])->name(
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
 Route::get('/orders/{orderNumber}/success', [CheckoutController::class, 'success'])->name('orders.success');
+Route::get('/orders/{orderNumber}/invoice', [CheckoutController::class, 'invoice'])->name('orders.invoice');
 
 // Legal & Information Pages
 Route::get('/terms', [LegalController::class, 'terms'])->name('legal.terms');
@@ -108,6 +110,58 @@ Route::get('/mail/preview/order-shipped', function () {
 
     return new OrderShippedMail($order, 'EVG-DHL-992384102');
 })->name('mail.preview.shipped');
+
+Route::get('/mail/preview/invoice', function () {
+    $order = Order::with('items')->latest()->first() ?? new Order([
+        'order_number' => 'EVG-2026-DEMO01',
+        'email' => 'alex@example.com',
+        'first_name' => 'Alex',
+        'last_name' => 'Vance',
+        'phone' => '+49 170 1234567',
+        'shipping_address_line1' => 'Friedrichstraße 43',
+        'city' => 'Berlin',
+        'postal_code' => '10117',
+        'country_name' => 'Germany',
+        'shipping_method_name' => 'Standard Shipping (3–7 business days, EU only)',
+        'shipping_cost' => 0.00,
+        'subtotal' => 196.00,
+        'discount_amount' => 19.60,
+        'coupon_code' => 'EVER10',
+        'total' => 176.40,
+        'trees_planted' => 20,
+        'payment_status' => 'paid',
+        'status' => 'processing',
+        'created_at' => now(),
+    ]);
+
+    if ($order->items->isEmpty()) {
+        $order->setRelation('items', collect([
+            new OrderItem([
+                'title' => 'Rambler Fleck Sweater',
+                'color_name' => 'Fired Brick',
+                'size' => 'M',
+                'price' => 98.00,
+                'quantity' => 1,
+                'total' => 98.00,
+                'image_src' => 'https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356',
+            ]),
+            new OrderItem([
+                'title' => 'Juniper Zip Hoodie',
+                'color_name' => 'Olive Night',
+                'size' => 'S',
+                'price' => 98.00,
+                'quantity' => 1,
+                'total' => 98.00,
+                'image_src' => 'https://cdn.shopify.com/s/files/1/2341/3995/files/W-Juniper-Zip-Hoodie-TCW3683-6401_4_resized.jpg?v=1784936356',
+            ]),
+        ]));
+    }
+
+    $pdf = Pdf::loadView('invoices.order-invoice', ['order' => $order])
+        ->setPaper('a4', 'portrait');
+
+    return $pdf->stream("invoice-{$order->order_number}.pdf");
+})->name('mail.preview.invoice');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

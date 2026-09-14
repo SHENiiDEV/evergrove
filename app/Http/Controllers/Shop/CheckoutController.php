@@ -7,6 +7,7 @@ use App\Mail\OrderConfirmationMail;
 use App\Models\Coupon;
 use App\Models\Order;
 use App\Models\Product;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -248,5 +249,18 @@ class CheckoutController extends Controller
                 ])->all(),
             ],
         ]);
+    }
+
+    /**
+     * Download or view PDF tax invoice for order.
+     */
+    public function invoice(string $orderNumber): \Illuminate\Http\Response
+    {
+        $order = Order::with('items')->where('order_number', $orderNumber)->firstOrFail();
+
+        $pdf = Pdf::loadView('invoices.order-invoice', ['order' => $order])
+            ->setPaper('a4', 'portrait');
+
+        return $pdf->download("EverGrove-Invoice-{$order->order_number}.pdf");
     }
 }

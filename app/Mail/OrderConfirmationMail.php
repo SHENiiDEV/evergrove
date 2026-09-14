@@ -3,6 +3,7 @@
 namespace App\Mail;
 
 use App\Models\Order;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
@@ -48,6 +49,12 @@ class OrderConfirmationMail extends Mailable
      */
     public function attachments(): array
     {
-        return [];
+        $pdf = Pdf::loadView('invoices.order-invoice', ['order' => $this->order])
+            ->setPaper('a4', 'portrait');
+
+        return [
+            Attachment::fromData(fn () => $pdf->output(), "EverGrove-Invoice-{$this->order->order_number}.pdf")
+                ->withMime('application/pdf'),
+        ];
     }
 }
