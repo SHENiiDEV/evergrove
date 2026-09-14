@@ -204,7 +204,12 @@ class CheckoutController extends Controller
         try {
             Mail::to($order->email)->send(new OrderConfirmationMail($order));
         } catch (\Throwable $e) {
-            Log::warning("Could not send order confirmation email: {$e->getMessage()}");
+            Log::error("Could not send order confirmation email: {$e->getMessage()}", [
+                'order_number' => $order->order_number,
+                'email' => $order->email,
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString(),
+            ]);
         }
 
         return redirect()->route('orders.success', $order->order_number);
