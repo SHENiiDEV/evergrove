@@ -25,7 +25,7 @@ composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction
 
 echo "⚡ [4/8] Building Frontend Assets with Vite..."
 if [ -f "package-lock.json" ]; then
-    npm ci --prefer-offline --no-audit
+    npm ci --prefer-offline --no-audit 2>/dev/null || npm install --no-audit
 else
     npm install --no-audit
 fi
