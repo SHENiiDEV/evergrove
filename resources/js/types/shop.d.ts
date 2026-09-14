@@ -122,3 +122,10 @@ export interface ShopConfig {
     locale: string;
     name: string;
 }
+
+export interface CompanyConfig {
+    name: string;
+    number: string;
+    address: string;
+    email: string;
+}

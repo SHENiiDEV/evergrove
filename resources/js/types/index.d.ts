@@ -1,4 +1,4 @@
-import { NavColumn, NavItem, ShopConfig } from './shop';
+import { CompanyConfig, NavColumn, NavItem, ShopConfig } from './shop';
 
 export interface User {
     id: number;
@@ -14,6 +14,7 @@ export type PageProps<
         user: User;
     };
     shop: ShopConfig;
+    company: CompanyConfig;
     navigation: NavItem[];
     footerColumns: NavColumn[];
 };

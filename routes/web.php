@@ -5,6 +5,7 @@ use App\Http\Controllers\Shop\CartController;
 use App\Http\Controllers\Shop\CatalogController;
 use App\Http\Controllers\Shop\CheckoutController;
 use App\Http\Controllers\Shop\HomeController;
+use App\Http\Controllers\Shop\LegalController;
 use App\Http\Controllers\Shop\ProductController;
 use App\Mail\OrderConfirmationMail;
 use App\Mail\OrderShippedMail;
@@ -30,6 +31,18 @@ Route::post('/cart/coupon/apply', [CartController::class, 'applyCoupon'])->name(
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
 Route::get('/orders/{orderNumber}/success', [CheckoutController::class, 'success'])->name('orders.success');
+
+// Legal & Information Pages
+Route::get('/terms', [LegalController::class, 'terms'])->name('legal.terms');
+Route::get('/privacy-policy', [LegalController::class, 'privacy'])->name('legal.privacy');
+Route::get('/shipping', [LegalController::class, 'shipping'])->name('legal.shipping');
+Route::get('/returns', [LegalController::class, 'returns'])->name('legal.returns');
+Route::get('/refund-policy', [LegalController::class, 'refund'])->name('legal.refund');
+Route::get('/legal', [LegalController::class, 'legalNotice'])->name('legal.notice');
+Route::get('/contact', [LegalController::class, 'contact'])->name('legal.contact');
+Route::get('/about', [LegalController::class, 'about'])->name('legal.about');
+Route::get('/materials', [LegalController::class, 'materials'])->name('legal.materials');
+Route::get('/size-guide', [LegalController::class, 'sizeGuide'])->name('legal.sizeGuide');
 
 // Email Templates Preview
 Route::get('/mail/preview/order-confirmation', function () {

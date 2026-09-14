@@ -261,14 +261,19 @@
                 </div>
 
                 <p style="font-size: 14px; color: #666660; margin: 0; text-align: center;">
-                    Questions about your order? Contact us anytime at <a href="mailto:support@evergrove.com" style="color: #191919;">support@evergrove.com</a>.
+                    Questions about your order? Contact us anytime at <a href="mailto:{{ config('shop.company.email', 'info@ever-grove.co.uk') }}" style="color: #191919; font-weight: 600;">{{ config('shop.company.email', 'info@ever-grove.co.uk') }}</a>.
                 </p>
             </div>
 
-            <!-- Footer -->
+            <!-- Footer & Legal Entity Invoice Details -->
             <div class="footer">
-                <p style="margin: 0 0 8px 0;">© {{ date('Y') }} EverGrove Apparel. Crafted with Hemp, Organic Cotton & Tencel.</p>
-                <p style="margin: 0;">Together, we've planted over 120 million trees worldwide.</p>
+                <p style="margin: 0 0 6px 0; font-weight: 600; color: #191919;">{{ config('shop.company.name', 'EverGrove Retail Ltd') }}</p>
+                <p style="margin: 0 0 4px 0; font-size: 11px; color: #888880;">
+                    Company No: {{ config('shop.company.number', '14892341') }} • Registered Address: {{ config('shop.company.address', '71-75 Shelton Street, London, WC2H 9JQ, UK') }}
+                </p>
+                <p style="margin: 8px 0 0 0; font-size: 11px; color: #888880;">
+                    © {{ date('Y') }} EverGrove. Earth-First Apparel & Accessories. Every Item Plants 10 Trees.
+                </p>
             </div>
         </div>
     </div>

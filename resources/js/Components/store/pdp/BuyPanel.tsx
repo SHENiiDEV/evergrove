@@ -1,4 +1,5 @@
 import ColorSwatches from '@/Components/store/ColorSwatches';
+import SizeGuideModal from '@/Components/store/pdp/SizeGuideModal';
 import Accordion from '@/Components/ui/Accordion';
 import Button from '@/Components/ui/Button';
 import { cn } from '@/lib/cn';
@@ -24,6 +25,7 @@ export default function BuyPanel({
     const [size, setSize] = useState<string | null>(initialSize);
     const [error, setError] = useState(false);
     const [saved, setSaved] = useState(false);
+    const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false);
 
     const submit = () => {
         if (!size) {
@@ -85,7 +87,8 @@ export default function BuyPanel({
                     <p className="u-label">Size</p>
                     <button
                         type="button"
-                        className="u-label flex items-center gap-1.5 text-muted hover:text-ink"
+                        onClick={() => setIsSizeGuideOpen(true)}
+                        className="u-label flex items-center gap-1.5 text-muted hover:text-ink transition-colors cursor-pointer"
                     >
                         <Ruler className="h-3.5 w-3.5" strokeWidth={1.5} />
                         Size guide
@@ -187,6 +190,12 @@ export default function BuyPanel({
                     </p>
                 </Accordion>
             </div>
+
+            <SizeGuideModal
+                open={isSizeGuideOpen}
+                onClose={() => setIsSizeGuideOpen(false)}
+                defaultGender={product.gender}
+            />
         </div>
     );
 }

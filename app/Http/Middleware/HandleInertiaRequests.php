@@ -44,6 +44,7 @@ class HandleInertiaRequests extends Middleware
                 'currency' => config('shop.currency'),
                 'locale' => config('shop.locale'),
             ],
+            'company' => config('shop.company'),
         ];
     }
 }

@@ -45,4 +45,16 @@ return [
 
     'per_page' => 24,
 
+    /*
+    |--------------------------------------------------------------------------
+    | Company Legal & Contact Information
+    |--------------------------------------------------------------------------
+    */
+    'company' => [
+        'name' => env('COMPANY_NAME', 'EverGrove Retail Ltd'),
+        'number' => env('COMPANY_NUMBER', '14892341'),
+        'address' => env('COMPANY_ADDRESS', '71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom'),
+        'email' => env('COMPANY_EMAIL', 'info@ever-grove.co.uk'),
+    ],
+
 ];

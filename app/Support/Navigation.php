@@ -93,19 +93,19 @@ class Navigation
             [
                 'heading' => 'Help',
                 'items' => [
-                    ['label' => 'Delivery', 'href' => route('catalog')],
-                    ['label' => 'Returns', 'href' => route('catalog')],
-                    ['label' => 'Size guide', 'href' => route('catalog')],
-                    ['label' => 'Contact us', 'href' => route('catalog')],
+                    ['label' => 'Delivery', 'href' => route('legal.shipping')],
+                    ['label' => 'Returns', 'href' => route('legal.returns')],
+                    ['label' => 'Size guide', 'href' => route('legal.sizeGuide')],
+                    ['label' => 'Contact us', 'href' => route('legal.contact')],
                 ],
             ],
             [
                 'heading' => 'About',
                 'items' => [
-                    ['label' => 'Our story', 'href' => route('catalog')],
-                    ['label' => 'Materials', 'href' => route('catalog')],
-                    ['label' => 'Sustainability', 'href' => route('catalog')],
-                    ['label' => 'Careers', 'href' => route('catalog')],
+                    ['label' => 'Our story', 'href' => route('legal.about')],
+                    ['label' => 'Materials', 'href' => route('legal.materials')],
+                    ['label' => 'Sustainability', 'href' => route('legal.materials')],
+                    ['label' => 'Legal Notice', 'href' => route('legal.notice')],
                 ],
             ],
         ]);
