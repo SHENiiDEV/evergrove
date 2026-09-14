@@ -16,13 +16,14 @@ class HomeController extends Controller
 
         return Inertia::render('Home', [
             'hero' => $this->hero($all),
-            'newIn' => $this->cards($all->sortByDesc('publishedAt')->unique('groupId')->take(8)),
+            'newIn' => $this->cards($all->sortByDesc('publishedAt')->unique('groupId')->take(8), $all),
             'categoryTiles' => $this->categoryTiles($all),
             'editorial' => $this->editorial($all),
             'bestSellers' => $this->cards(
                 $all->filter(fn (array $product): bool => in_array('best-sellers', $product['tags'], true))
                     ->unique('groupId')
-                    ->take(5)
+                    ->take(5),
+                $all
             ),
             'stories' => $this->stories($all),
         ]);
@@ -30,11 +31,18 @@ class HomeController extends Controller
 
     /**
      * @param  Collection<int, array<string, mixed>>  $products
+     * @param  Collection<int, array<string, mixed>>|null  $all
      * @return array<int, array<string, mixed>>
      */
-    private function cards(Collection $products): array
+    private function cards(Collection $products, ?Collection $all = null): array
     {
-        return $products->map(ProductCatalog::card(...))->values()->all();
+        $allByGroup = ($all ?? $products)->groupBy('groupId');
+
+        return $products->map(function (array $product) use ($allByGroup): array {
+            $colorways = $allByGroup->get($product['groupId']);
+
+            return ProductCatalog::card($product, $colorways);
+        })->values()->all();
     }
 
     /**

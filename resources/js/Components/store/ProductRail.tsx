@@ -37,6 +37,10 @@ export default function ProductRail({ products }: { products: Card[] }) {
         }
     };
 
+    const uniqueProducts = products.filter((p, index, self) => 
+        index === self.findIndex((t) => t.groupId === p.groupId)
+    );
+
     return (
         <div className="relative">
             <ul
@@ -44,13 +48,14 @@ export default function ProductRail({ products }: { products: Card[] }) {
                 onScroll={sync}
                 className="u-no-scrollbar u-snap-x -mx-4 flex gap-3 overflow-x-auto px-4 sm:-mx-6 sm:px-6 lg:-mx-10 lg:gap-4 lg:px-10"
             >
-                {products.map((product, index) => (
+                {uniqueProducts.map((product, index) => (
                     <li
                         key={product.id}
                         className="u-snap-start w-[62%] shrink-0 sm:w-[38%] lg:w-[23%] xl:w-[19%]"
                     >
                         <ProductCard
                             product={product}
+                            colorways={product.colorways ?? []}
                             priority={index < 3}
                             sizes="(min-width: 1280px) 19vw, (min-width: 1024px) 23vw, (min-width: 640px) 38vw, 62vw"
                         />

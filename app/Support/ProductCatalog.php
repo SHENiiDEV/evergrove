@@ -134,14 +134,24 @@ class ProductCatalog
             $scoped = $scoped->filter(fn (array $product): bool => $this->matches($product, $term))->values();
         }
 
-        $matched = $this->sort($this->applyFilters($scoped, $filters), $filters['sort'] ?? 'featured');
+        $matched = $this->sort($this->applyFilters($scoped, $filters), $filters['sort'] ?? 'featured')
+            ->unique('groupId')
+            ->values();
+
+        $allByGroup = $this->all()->groupBy('groupId');
 
         $perPage = (int) config('shop.per_page', 24);
         $pages = max(1, (int) ceil($matched->count() / $perPage));
         $page = min(max(1, (int) ($filters['page'] ?? 1)), $pages);
 
+        $cards = $matched->forPage($page, $perPage)->map(function (array $product) use ($allByGroup): array {
+            $colorways = $allByGroup->get($product['groupId']);
+
+            return self::card($product, $colorways);
+        })->values()->all();
+
         return [
-            'products' => $matched->forPage($page, $perPage)->map(self::card(...))->values()->all(),
+            'products' => $cards,
             'total' => $matched->count(),
             'page' => $page,
             'pages' => $pages,
@@ -294,13 +304,40 @@ class ProductCatalog
      * The subset a grid card needs.
      *
      * @param  array<string, mixed>|Product  $product
+     * @param  Collection<int, array<string, mixed>>|null  $colorways
      * @return array<string, mixed>
      */
-    public static function card(array|Product $product): array
+    public static function card(array|Product $product, mixed $colorways = null): array
     {
+        if (! ($colorways instanceof Collection)) {
+            $colorways = null;
+        }
+
         if ($product instanceof Product) {
             $product = self::format($product);
         }
+
+        $colorwaysList = $colorways ? $colorways->map(function ($c): array {
+            $item = is_array($c) ? $c : self::format($c);
+
+            return [
+                'id' => $item['id'],
+                'groupId' => $item['groupId'],
+                'title' => $item['title'],
+                'handle' => $item['handle'],
+                'url' => $item['url'],
+                'price' => $item['price'],
+                'compareAtPrice' => $item['compareAtPrice'],
+                'image' => $item['image'],
+                'hoverImage' => $item['hoverImage'],
+                'color' => $item['color'],
+                'sizes' => $item['sizes'],
+                'available' => $item['available'],
+                'badges' => $item['badges'],
+                'gender' => $item['gender'],
+                'category' => $item['category'],
+            ];
+        })->values()->all() : [];
 
         return [
             'id' => $product['id'],
@@ -318,6 +355,7 @@ class ProductCatalog
             'badges' => $product['badges'],
             'gender' => $product['gender'],
             'category' => $product['category'],
+            'colorways' => $colorwaysList,
         ];
     }
 

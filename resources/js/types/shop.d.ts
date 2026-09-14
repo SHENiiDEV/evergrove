@@ -50,6 +50,7 @@ export interface ProductCard {
     badges: ProductBadge[];
     gender: Gender;
     category: ProductCategory;
+    colorways?: ProductCard[];
 }
 
 export interface Product extends ProductCard {

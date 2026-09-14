@@ -26,6 +26,7 @@ export default function ProductCard({
     const price = usePrice();
     const [saved, setSaved] = useState(false);
 
+    const allColorways = colorways.length > 0 ? colorways : (product.colorways ?? []);
     const soldOut = !product.available;
     const badges = product.badges.filter((badge) => badge !== 'sold-out');
 
@@ -143,9 +144,9 @@ export default function ProductCard({
 
                 <p className="text-[13px] text-muted">{product.color.name}</p>
 
-                {colorways.length > 1 ? (
+                {allColorways.length > 1 ? (
                     <ColorSwatches
-                        colorways={colorways}
+                        colorways={allColorways}
                         activeHandle={product.handle}
                         className="relative z-10 mt-1"
                     />

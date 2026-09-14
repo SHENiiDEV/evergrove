@@ -14,6 +14,21 @@ export default function ProductGrid({
     className,
     priorityCount = 4,
 }: ProductGridProps) {
+    // Ensure we display 1 unique card per product (groupId)
+    const uniqueProducts = useMemo(() => {
+        const seen = new Set<number>();
+        const list: Card[] = [];
+
+        products.forEach((p) => {
+            if (!seen.has(p.groupId)) {
+                seen.add(p.groupId);
+                list.push(p);
+            }
+        });
+
+        return list;
+    }, [products]);
+
     // Colourways of the same product become the swatch row on each card.
     const grouped = useMemo(() => {
         const map = new Map<number, Card[]>();
@@ -35,14 +50,20 @@ export default function ProductGrid({
                 className,
             )}
         >
-            {products.map((product, index) => (
-                <ProductCard
-                    key={product.id}
-                    product={product}
-                    colorways={grouped.get(product.groupId) ?? []}
-                    priority={index < priorityCount}
-                />
-            ))}
+            {uniqueProducts.map((product, index) => {
+                const colorways = (product.colorways && product.colorways.length > 0)
+                    ? product.colorways
+                    : (grouped.get(product.groupId) ?? []);
+
+                return (
+                    <ProductCard
+                        key={product.id}
+                        product={product}
+                        colorways={colorways}
+                        priority={index < priorityCount}
+                    />
+                );
+            })}
         </div>
     );
 }
