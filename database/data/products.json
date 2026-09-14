@@ -1,0 +1,3220 @@
+{
+  "products": [
+    {
+      "id": 8462689894586,
+      "title": "Rambler Fleck Sweater",
+      "handle": "rambler-fleck-sweater-harbour-grey-heather-fleck",
+      "body_html": "<p>Step up your sweater game with our fresh spin on our classic knit crew. Made from 100% organic cotton yarn with a contrast nep, it delivers a unique touch of texture and color.</p>",
+      "published_at": "2026-09-04T16:28:01-07:00",
+      "created_at": "2026-07-24T16:39:08-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Mens",
+      "tags": [
+        "eco material: organic cotton",
+        "FA26",
+        "FA26-new-style",
+        "FW26",
+        "highline",
+        "m",
+        "mens",
+        "organic-cotton",
+        "sweater",
+        "sweaters-cardigans",
+        "tops",
+        "WI26-launch"
+      ],
+      "variants": [
+        {
+          "id": 46195203440826,
+          "title": "HARBOUR GREY HEATHER FLECK / S",
+          "option1": "HARBOUR GREY HEATHER FLECK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCM6741-6401-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 42426923614394,
+            "created_at": "2026-07-24T16:39:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8462689894586,
+            "variant_ids": [
+              46195203440826,
+              46195203473594,
+              46195203506362,
+              46195203539130,
+              46195203571898
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356",
+            "width": 3346,
+            "height": 4183,
+            "alt": "Grey-Highline-Nep-Crew-Sweater *Model is 5'11.5\", wearing size M"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8462689894586,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46195203473594,
+          "title": "HARBOUR GREY HEATHER FLECK / M",
+          "option1": "HARBOUR GREY HEATHER FLECK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCM6741-6401-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 42426923614394,
+            "created_at": "2026-07-24T16:39:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8462689894586,
+            "variant_ids": [
+              46195203440826,
+              46195203473594,
+              46195203506362,
+              46195203539130,
+              46195203571898
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356",
+            "width": 3346,
+            "height": 4183,
+            "alt": "Grey-Highline-Nep-Crew-Sweater *Model is 5'11.5\", wearing size M"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 8462689894586,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46195203506362,
+          "title": "HARBOUR GREY HEATHER FLECK / L",
+          "option1": "HARBOUR GREY HEATHER FLECK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCM6741-6401-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 42426923614394,
+            "created_at": "2026-07-24T16:39:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8462689894586,
+            "variant_ids": [
+              46195203440826,
+              46195203473594,
+              46195203506362,
+              46195203539130,
+              46195203571898
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356",
+            "width": 3346,
+            "height": 4183,
+            "alt": "Grey-Highline-Nep-Crew-Sweater *Model is 5'11.5\", wearing size M"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 8462689894586,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46195203539130,
+          "title": "HARBOUR GREY HEATHER FLECK / XL",
+          "option1": "HARBOUR GREY HEATHER FLECK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCM6741-6401-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 42426923614394,
+            "created_at": "2026-07-24T16:39:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8462689894586,
+            "variant_ids": [
+              46195203440826,
+              46195203473594,
+              46195203506362,
+              46195203539130,
+              46195203571898
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356",
+            "width": 3346,
+            "height": 4183,
+            "alt": "Grey-Highline-Nep-Crew-Sweater *Model is 5'11.5\", wearing size M"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 8462689894586,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46195203571898,
+          "title": "HARBOUR GREY HEATHER FLECK / XXL",
+          "option1": "HARBOUR GREY HEATHER FLECK",
+          "option2": "XXL",
+          "option3": null,
+          "sku": "TCM6741-6401-XXL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 42426923614394,
+            "created_at": "2026-07-24T16:39:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8462689894586,
+            "variant_ids": [
+              46195203440826,
+              46195203473594,
+              46195203506362,
+              46195203539130,
+              46195203571898
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356",
+            "width": 3346,
+            "height": 4183,
+            "alt": "Grey-Highline-Nep-Crew-Sweater *Model is 5'11.5\", wearing size M"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 8462689894586,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 42426923614394,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [
+            46195203440826,
+            46195203473594,
+            46195203506362,
+            46195203539130,
+            46195203571898
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_4_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 42426923647162,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_11_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 42426923679930,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_1_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 42426923712698,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_3_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 42426923745466,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_13_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 42426923778234,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_2_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4182
+        },
+        {
+          "id": 42426923811002,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 7,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_17.jpg?v=1784936355",
+          "width": 1920,
+          "height": 2400
+        },
+        {
+          "id": 42426923843770,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 8,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_15_resized.jpg?v=1784936356",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 42426923876538,
+          "created_at": "2026-07-24T16:39:08-07:00",
+          "position": 9,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8462689894586,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Grey-Highline-Nep-Crew-Sweater-TCM6741-6401_18.jpg?v=1784936356",
+          "width": 2811,
+          "height": 3514
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "HARBOUR GREY HEATHER FLECK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7422974165178,
+      "title": "Chilton Parka",
+      "handle": "parka-puffer-jacket-meteorite-black",
+      "body_html": "<p>Combining the warmth of a puffer with the coverage of a parka, this jacket will keep you warm on winter’s coldest days. It’s made from recycled materials and coated with a DWR finish to keep you dry and outside.</p>",
+      "published_at": "2026-08-28T16:35:25-07:00",
+      "created_at": "2023-08-11T14:26:10-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Mens",
+      "tags": [
+        "best-sellers",
+        "eco material: recycled polyester",
+        "favourites",
+        "jackets-coats",
+        "low-in-stock",
+        "m",
+        "mens",
+        "outerwear",
+        "puffer",
+        "recycled-polyester",
+        "staff-picks-25",
+        "WI26-launch"
+      ],
+      "variants": [
+        {
+          "id": 42562163835066,
+          "title": "METEORITE BLACK / S",
+          "option1": "METEORITE BLACK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCM5448-0164-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37616918560954,
+            "created_at": "2023-08-11T14:26:10-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7422974165178,
+            "variant_ids": [
+              42562163835066,
+              42562163867834,
+              42562163900602,
+              42562163933370,
+              42562163966138
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_c2eaccce-b754-4326-981c-bbe8cafcc525.jpg?v=1769732062",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Repellent-Hooded-Puffer-Parka *Model is 6'2\", wearing size M"
+          },
+          "available": false,
+          "price": "368.00",
+          "grams": 850,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7422974165178,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42562163867834,
+          "title": "METEORITE BLACK / M",
+          "option1": "METEORITE BLACK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCM5448-0164-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37616918560954,
+            "created_at": "2023-08-11T14:26:10-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7422974165178,
+            "variant_ids": [
+              42562163835066,
+              42562163867834,
+              42562163900602,
+              42562163933370,
+              42562163966138
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_c2eaccce-b754-4326-981c-bbe8cafcc525.jpg?v=1769732062",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Repellent-Hooded-Puffer-Parka *Model is 6'2\", wearing size M"
+          },
+          "available": false,
+          "price": "368.00",
+          "grams": 850,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7422974165178,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42562163900602,
+          "title": "METEORITE BLACK / L",
+          "option1": "METEORITE BLACK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCM5448-0164-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37616918560954,
+            "created_at": "2023-08-11T14:26:10-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7422974165178,
+            "variant_ids": [
+              42562163835066,
+              42562163867834,
+              42562163900602,
+              42562163933370,
+              42562163966138
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_c2eaccce-b754-4326-981c-bbe8cafcc525.jpg?v=1769732062",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Repellent-Hooded-Puffer-Parka *Model is 6'2\", wearing size M"
+          },
+          "available": false,
+          "price": "368.00",
+          "grams": 850,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7422974165178,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42562163933370,
+          "title": "METEORITE BLACK / XL",
+          "option1": "METEORITE BLACK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCM5448-0164-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37616918560954,
+            "created_at": "2023-08-11T14:26:10-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7422974165178,
+            "variant_ids": [
+              42562163835066,
+              42562163867834,
+              42562163900602,
+              42562163933370,
+              42562163966138
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_c2eaccce-b754-4326-981c-bbe8cafcc525.jpg?v=1769732062",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Repellent-Hooded-Puffer-Parka *Model is 6'2\", wearing size M"
+          },
+          "available": false,
+          "price": "368.00",
+          "grams": 850,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7422974165178,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42562163966138,
+          "title": "METEORITE BLACK / XXL",
+          "option1": "METEORITE BLACK",
+          "option2": "XXL",
+          "option3": null,
+          "sku": "TCM5448-0164-XXL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37616918560954,
+            "created_at": "2023-08-11T14:26:10-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7422974165178,
+            "variant_ids": [
+              42562163835066,
+              42562163867834,
+              42562163900602,
+              42562163933370,
+              42562163966138
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_c2eaccce-b754-4326-981c-bbe8cafcc525.jpg?v=1769732062",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Repellent-Hooded-Puffer-Parka *Model is 6'2\", wearing size M"
+          },
+          "available": false,
+          "price": "368.00",
+          "grams": 850,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7422974165178,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 37616918560954,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [
+            42562163835066,
+            42562163867834,
+            42562163900602,
+            42562163933370,
+            42562163966138
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_c2eaccce-b754-4326-981c-bbe8cafcc525.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 40556146983098,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_844_fe139008-5085-4d9c-ab32-10f756f30304.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918593722,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_1_bc518b94-4338-4a40-89fb-52f0898cca0b.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918692026,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_2_9190dfe8-48f1-4907-8499-ef8e1447e802.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918790330,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_6_1eb54d93-14bd-421a-9d92-62560e122218.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918724794,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_7_20af8334-446b-47ee-b4f7-0a4d4725dc1e.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918757562,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 7,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_4_0bc73f53-397b-46d3-bf4b-1d525fa320fc.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918626490,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 8,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_5_2422cf5a-f5ab-40d2-b4c9-0c946e37a83c.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37616918659258,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 9,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_3_e974bd95-132f-47ea-8e2b-85df9945d9f4.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 35349103935674,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 10,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/RecycledPolyWoven2Layer-PlainWeave-MeteoriteBlack_82_899626dc-f0da-424a-bdc8-eb0ec5a84c49.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 40556147015866,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 11,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_1f59e37c-ee16-4931-a47f-62fc11aa3b903.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 40556147048634,
+          "created_at": "2023-08-11T14:26:10-07:00",
+          "position": 12,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7422974165178,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Repellent-Hooded-Puffer-Parka-TCM5448-0164_8_1f59e37c-ee16-4931-a47f-62fc11aa3b9033.jpg?v=1769732062",
+          "width": 960,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8502008479930,
+      "title": "Quilted Reynard Crew",
+      "handle": "quilted-reynard-crew-ashwood-heather",
+      "body_html": "<p>Same Reynard fit, now in a soft, diamond-quilted fabric for extra texture and warmth — perfect for that “I’m not stopping just because it’s winter” kind of energy.</p>",
+      "published_at": "2026-08-28T10:16:42-07:00",
+      "created_at": "2026-08-25T10:39:55-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Mens",
+      "tags": [
+        "best-sellers",
+        "eco material: organic cotton",
+        "FA25",
+        "FA25-new-color",
+        "fleece",
+        "hoodies-sweatshirts",
+        "loungewear",
+        "low-in-stock",
+        "m",
+        "mens",
+        "organic-cotton",
+        "sweatshirt",
+        "tops"
+      ],
+      "variants": [
+        {
+          "id": 46480539975866,
+          "title": "ASHWOOD HEATHER / S",
+          "option1": "ASHWOOD HEATHER",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCM6302-6304-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 43156214481082,
+            "created_at": "2026-08-25T10:39:55-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8502008479930,
+            "variant_ids": [
+              46480539975866,
+              46480540008634,
+              46480540041402,
+              46480540074170,
+              46480540106938
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_4.png?v=1787679602",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Brown-Quilted-Classic-Crew *Model is wearing size M"
+          },
+          "available": false,
+          "price": "88.00",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8502008479930,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46480540008634,
+          "title": "ASHWOOD HEATHER / M",
+          "option1": "ASHWOOD HEATHER",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCM6302-6304-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 43156214481082,
+            "created_at": "2026-08-25T10:39:55-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8502008479930,
+            "variant_ids": [
+              46480539975866,
+              46480540008634,
+              46480540041402,
+              46480540074170,
+              46480540106938
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_4.png?v=1787679602",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Brown-Quilted-Classic-Crew *Model is wearing size M"
+          },
+          "available": false,
+          "price": "88.00",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 8502008479930,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46480540041402,
+          "title": "ASHWOOD HEATHER / L",
+          "option1": "ASHWOOD HEATHER",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCM6302-6304-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 43156214481082,
+            "created_at": "2026-08-25T10:39:55-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8502008479930,
+            "variant_ids": [
+              46480539975866,
+              46480540008634,
+              46480540041402,
+              46480540074170,
+              46480540106938
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_4.png?v=1787679602",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Brown-Quilted-Classic-Crew *Model is wearing size M"
+          },
+          "available": false,
+          "price": "88.00",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 8502008479930,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46480540074170,
+          "title": "ASHWOOD HEATHER / XL",
+          "option1": "ASHWOOD HEATHER",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCM6302-6304-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 43156214481082,
+            "created_at": "2026-08-25T10:39:55-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8502008479930,
+            "variant_ids": [
+              46480539975866,
+              46480540008634,
+              46480540041402,
+              46480540074170,
+              46480540106938
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_4.png?v=1787679602",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Brown-Quilted-Classic-Crew *Model is wearing size M"
+          },
+          "available": true,
+          "price": "88.00",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 8502008479930,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 46480540106938,
+          "title": "ASHWOOD HEATHER / XXL",
+          "option1": "ASHWOOD HEATHER",
+          "option2": "XXL",
+          "option3": null,
+          "sku": "TCM6302-6304-XXL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 43156214481082,
+            "created_at": "2026-08-25T10:39:55-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 8502008479930,
+            "variant_ids": [
+              46480539975866,
+              46480540008634,
+              46480540041402,
+              46480540074170,
+              46480540106938
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_4.png?v=1787679602",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Brown-Quilted-Classic-Crew *Model is wearing size M"
+          },
+          "available": false,
+          "price": "88.00",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 8502008479930,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 43156214481082,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8502008479930,
+          "variant_ids": [
+            46480539975866,
+            46480540008634,
+            46480540041402,
+            46480540074170,
+            46480540106938
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_4.png?v=1787679602",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "id": 43156214513850,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8502008479930,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_1.png?v=1787679601",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "id": 43156214546618,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8502008479930,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_2.png?v=1787679601",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "id": 43156214579386,
+          "created_at": "2026-08-25T10:39:55-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 8502008479930,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Brown-Quilted-Classic-Crew-TCM6302-6304_3.png?v=1787679602",
+          "width": 1638,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "ASHWOOD HEATHER"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7133081141434,
+      "title": "Nimbus Rain Jacket",
+      "handle": "mens-rain-jacket",
+      "body_html": "<p>For those days when the rain won't quit, there's this sustainably made waterproof jacket — with fully taped seams and a non-toxic, DWR finish.</p>",
+      "published_at": "2026-08-28T10:02:03-07:00",
+      "created_at": "2022-07-12T21:26:29-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Mens",
+      "tags": [
+        "activewear",
+        "adventure-essentials",
+        "best-sellers",
+        "eco material: recycled polyester",
+        "FA26-launch2",
+        "favourites",
+        "jacket",
+        "jackets-coats",
+        "low-in-stock",
+        "m",
+        "mens",
+        "outerwear",
+        "rain-jacket",
+        "recycled-polyester",
+        "transitional-outerwear"
+      ],
+      "variants": [
+        {
+          "id": 41607119208634,
+          "title": "METEORITE BLACK / S",
+          "option1": "METEORITE BLACK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCM3538-0164-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37163604836538,
+            "created_at": "2022-07-12T21:26:29-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133081141434,
+            "variant_ids": [
+              41607119208634,
+              41607119241402,
+              41607119274170,
+              41607119339706,
+              41607119372474
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_5_624a4ad8-a63e-44a3-a6d1-17d9786d7fd5.jpg?v=1753733863",
+            "width": 952,
+            "height": 1200,
+            "alt": "Black-Mens-Waterproof-Rain-Jacket *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "218.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7133081141434,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607119241402,
+          "title": "METEORITE BLACK / M",
+          "option1": "METEORITE BLACK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCM3538-0164-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37163604836538,
+            "created_at": "2022-07-12T21:26:29-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133081141434,
+            "variant_ids": [
+              41607119208634,
+              41607119241402,
+              41607119274170,
+              41607119339706,
+              41607119372474
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_5_624a4ad8-a63e-44a3-a6d1-17d9786d7fd5.jpg?v=1753733863",
+            "width": 952,
+            "height": 1200,
+            "alt": "Black-Mens-Waterproof-Rain-Jacket *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "218.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7133081141434,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607119274170,
+          "title": "METEORITE BLACK / L",
+          "option1": "METEORITE BLACK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCM3538-0164-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37163604836538,
+            "created_at": "2022-07-12T21:26:29-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133081141434,
+            "variant_ids": [
+              41607119208634,
+              41607119241402,
+              41607119274170,
+              41607119339706,
+              41607119372474
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_5_624a4ad8-a63e-44a3-a6d1-17d9786d7fd5.jpg?v=1753733863",
+            "width": 952,
+            "height": 1200,
+            "alt": "Black-Mens-Waterproof-Rain-Jacket *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "218.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7133081141434,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607119339706,
+          "title": "METEORITE BLACK / XL",
+          "option1": "METEORITE BLACK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCM3538-0164-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37163604836538,
+            "created_at": "2022-07-12T21:26:29-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133081141434,
+            "variant_ids": [
+              41607119208634,
+              41607119241402,
+              41607119274170,
+              41607119339706,
+              41607119372474
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_5_624a4ad8-a63e-44a3-a6d1-17d9786d7fd5.jpg?v=1753733863",
+            "width": 952,
+            "height": 1200,
+            "alt": "Black-Mens-Waterproof-Rain-Jacket *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "218.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7133081141434,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607119372474,
+          "title": "METEORITE BLACK / XXL",
+          "option1": "METEORITE BLACK",
+          "option2": "XXL",
+          "option3": null,
+          "sku": "TCM3538-0164-XXL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 37163604836538,
+            "created_at": "2022-07-12T21:26:29-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133081141434,
+            "variant_ids": [
+              41607119208634,
+              41607119241402,
+              41607119274170,
+              41607119339706,
+              41607119372474
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_5_624a4ad8-a63e-44a3-a6d1-17d9786d7fd5.jpg?v=1753733863",
+            "width": 952,
+            "height": 1200,
+            "alt": "Black-Mens-Waterproof-Rain-Jacket *Model is 6'2\", wearing size M"
+          },
+          "available": false,
+          "price": "218.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7133081141434,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 37163604836538,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [
+            41607119208634,
+            41607119241402,
+            41607119274170,
+            41607119339706,
+            41607119372474
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_5_624a4ad8-a63e-44a3-a6d1-17d9786d7fd5.jpg?v=1753733863",
+          "width": 952,
+          "height": 1200
+        },
+        {
+          "id": 37163604738234,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_1_da648b4b-3b16-4069-a5e5-ff051f3c1a31.jpg?v=1753733875",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37163604803770,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_2_de1c3aae-824a-4700-b032-db120e9ebfae.jpg?v=1753733872",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37163604705466,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_3_af1466f3-52db-441e-929f-6fd06b496e53.jpg?v=1753733869",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 37163604771002,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Mens-Waterproof-Rain-Jacket-TCM3538-0164_4_c515058b-15c7-43ec-8fe5-542614041266.jpg?v=1753733866",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 38215673708730,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/RecycledPolyWoven2Layer-PlainWeave_TCM3538_1.jpg?v=1745266521",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 38215673839802,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 7,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/RecycledPolyWoven2Layer-PlainWeave_TCM3538_2.jpg?v=1745266521",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 38215673577658,
+          "created_at": "2022-07-12T21:26:29-07:00",
+          "position": 8,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133081141434,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/RecycledPolyWoven2Layer-PlainWeave_TCM3538_3.jpg?v=1745266521",
+          "width": 960,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7133108240570,
+      "title": "Juniper Zip Hoodie",
+      "handle": "w-juniper-zip-hoodie",
+      "body_html": "<p>Featuring our ever popular signature Juniper graphic, the Juniper zip up hoodie sets the sustainable standard in comfortable daily wear.</p>",
+      "published_at": "2026-08-28T10:02:00-07:00",
+      "created_at": "2022-07-12T21:44:26-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Womens",
+      "tags": [
+        "best-sellers",
+        "eco material: organic cotton",
+        "FA25",
+        "fleece",
+        "FW25-best-sellers",
+        "graphic",
+        "hoodie",
+        "hoodies",
+        "hoodies-sweatshirts",
+        "loungewear",
+        "low-in-stock",
+        "organic-cotton",
+        "tops",
+        "w",
+        "womens",
+        "zip-up"
+      ],
+      "variants": [
+        {
+          "id": 41607192084666,
+          "title": "METEORITE BLACK HEATHER / XS",
+          "option1": "METEORITE BLACK HEATHER",
+          "option2": "XS",
+          "option3": null,
+          "sku": "TCW1760-0451-XS",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 41116502360250,
+            "created_at": "2022-07-12T21:44:26-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133108240570,
+            "variant_ids": [
+              41607192084666,
+              41607192117434,
+              41607192150202,
+              41607192182970,
+              41607192215738
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCW1760-0451-meteorite-black-heather-regular-fit-longsleeve-zip-hoodie_1.jpg?v=1773702001",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Black-regular-fit-longsleeve-zip-hoodie *Model is 5'9\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7133108240570,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607192117434,
+          "title": "METEORITE BLACK HEATHER / S",
+          "option1": "METEORITE BLACK HEATHER",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCW1760-0451-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 41116502360250,
+            "created_at": "2022-07-12T21:44:26-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133108240570,
+            "variant_ids": [
+              41607192084666,
+              41607192117434,
+              41607192150202,
+              41607192182970,
+              41607192215738
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCW1760-0451-meteorite-black-heather-regular-fit-longsleeve-zip-hoodie_1.jpg?v=1773702001",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Black-regular-fit-longsleeve-zip-hoodie *Model is 5'9\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7133108240570,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607192150202,
+          "title": "METEORITE BLACK HEATHER / M",
+          "option1": "METEORITE BLACK HEATHER",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCW1760-0451-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 41116502360250,
+            "created_at": "2022-07-12T21:44:26-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133108240570,
+            "variant_ids": [
+              41607192084666,
+              41607192117434,
+              41607192150202,
+              41607192182970,
+              41607192215738
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCW1760-0451-meteorite-black-heather-regular-fit-longsleeve-zip-hoodie_1.jpg?v=1773702001",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Black-regular-fit-longsleeve-zip-hoodie *Model is 5'9\", wearing size S"
+          },
+          "available": false,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7133108240570,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607192182970,
+          "title": "METEORITE BLACK HEATHER / L",
+          "option1": "METEORITE BLACK HEATHER",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCW1760-0451-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 41116502360250,
+            "created_at": "2022-07-12T21:44:26-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133108240570,
+            "variant_ids": [
+              41607192084666,
+              41607192117434,
+              41607192150202,
+              41607192182970,
+              41607192215738
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCW1760-0451-meteorite-black-heather-regular-fit-longsleeve-zip-hoodie_1.jpg?v=1773702001",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Black-regular-fit-longsleeve-zip-hoodie *Model is 5'9\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7133108240570,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41607192215738,
+          "title": "METEORITE BLACK HEATHER / XL",
+          "option1": "METEORITE BLACK HEATHER",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCW1760-0451-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 41116502360250,
+            "created_at": "2022-07-12T21:44:26-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7133108240570,
+            "variant_ids": [
+              41607192084666,
+              41607192117434,
+              41607192150202,
+              41607192182970,
+              41607192215738
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCW1760-0451-meteorite-black-heather-regular-fit-longsleeve-zip-hoodie_1.jpg?v=1773702001",
+            "width": 1638,
+            "height": 2048,
+            "alt": "Black-regular-fit-longsleeve-zip-hoodie *Model is 5'9\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7133108240570,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 41116502360250,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133108240570,
+          "variant_ids": [
+            41607192084666,
+            41607192117434,
+            41607192150202,
+            41607192182970,
+            41607192215738
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCW1760-0451-meteorite-black-heather-regular-fit-longsleeve-zip-hoodie_1.jpg?v=1773702001",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "id": 41116502393018,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133108240570,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-regular-fit-longsleeve-zip-hoodie-TCW1760-0451.jpg?v=1773702002",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 41116502425786,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133108240570,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-regular-fit-longsleeve-zip-hoodie-TCW1760-0451_-1.jpg?v=1773702002",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 41116502458554,
+          "created_at": "2022-07-12T21:44:26-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7133108240570,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Tree-Graphic-Pullover-Hoodie-TCW1760-0451_1_80493311-41a1-4d3c-8e84-df137145b452.jpg?v=1773702001",
+          "width": 1638,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK HEATHER"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7160740970682,
+      "title": "Brewster Vest",
+      "handle": "mens-puffer-vest-meteorite-black",
+      "body_html": "<p>Whether you're layering up for an outdoor adventure or crafting the perfect look for an evening out with friends, this earth-friendly vest can do it all.</p>",
+      "published_at": "2026-08-28T10:01:58-07:00",
+      "created_at": "2022-08-04T12:52:03-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Mens",
+      "tags": [
+        "adventure-essentials",
+        "best-sellers",
+        "eco material: recycled polyester",
+        "FA25",
+        "FA25-launch",
+        "FA26-launch2",
+        "jackets-coats",
+        "m",
+        "mens",
+        "outerwear",
+        "puffer",
+        "recycled-polyester",
+        "transitional-outerwear",
+        "vest"
+      ],
+      "variants": [
+        {
+          "id": 41700030775482,
+          "title": "METEORITE BLACK / S",
+          "option1": "METEORITE BLACK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCM4583-0164-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 32179515949242,
+            "created_at": "2022-08-04T12:52:03-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160740970682,
+            "variant_ids": [
+              41700030775482,
+              41700030841018,
+              41700030873786,
+              41700030939322,
+              41700031496378
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_2.jpg?v=1769731864",
+            "width": 952,
+            "height": 1200,
+            "alt": "Mens Recycled Polyester Insulated Puffer Vest *Model is 5'10\", wearing size M"
+          },
+          "available": true,
+          "price": "188.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7160740970682,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700030841018,
+          "title": "METEORITE BLACK / M",
+          "option1": "METEORITE BLACK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCM4583-0164-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 32179515949242,
+            "created_at": "2022-08-04T12:52:03-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160740970682,
+            "variant_ids": [
+              41700030775482,
+              41700030841018,
+              41700030873786,
+              41700030939322,
+              41700031496378
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_2.jpg?v=1769731864",
+            "width": 952,
+            "height": 1200,
+            "alt": "Mens Recycled Polyester Insulated Puffer Vest *Model is 5'10\", wearing size M"
+          },
+          "available": true,
+          "price": "188.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7160740970682,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700030873786,
+          "title": "METEORITE BLACK / L",
+          "option1": "METEORITE BLACK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCM4583-0164-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 32179515949242,
+            "created_at": "2022-08-04T12:52:03-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160740970682,
+            "variant_ids": [
+              41700030775482,
+              41700030841018,
+              41700030873786,
+              41700030939322,
+              41700031496378
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_2.jpg?v=1769731864",
+            "width": 952,
+            "height": 1200,
+            "alt": "Mens Recycled Polyester Insulated Puffer Vest *Model is 5'10\", wearing size M"
+          },
+          "available": true,
+          "price": "188.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7160740970682,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700030939322,
+          "title": "METEORITE BLACK / XL",
+          "option1": "METEORITE BLACK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCM4583-0164-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 32179515949242,
+            "created_at": "2022-08-04T12:52:03-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160740970682,
+            "variant_ids": [
+              41700030775482,
+              41700030841018,
+              41700030873786,
+              41700030939322,
+              41700031496378
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_2.jpg?v=1769731864",
+            "width": 952,
+            "height": 1200,
+            "alt": "Mens Recycled Polyester Insulated Puffer Vest *Model is 5'10\", wearing size M"
+          },
+          "available": true,
+          "price": "188.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7160740970682,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700031496378,
+          "title": "METEORITE BLACK / XXL",
+          "option1": "METEORITE BLACK",
+          "option2": "XXL",
+          "option3": null,
+          "sku": "TCM4583-0164-XXL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 32179515949242,
+            "created_at": "2022-08-04T12:52:03-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160740970682,
+            "variant_ids": [
+              41700030775482,
+              41700030841018,
+              41700030873786,
+              41700030939322,
+              41700031496378
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_2.jpg?v=1769731864",
+            "width": 952,
+            "height": 1200,
+            "alt": "Mens Recycled Polyester Insulated Puffer Vest *Model is 5'10\", wearing size M"
+          },
+          "available": true,
+          "price": "188.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7160740970682,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 32179515949242,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [
+            41700030775482,
+            41700030841018,
+            41700030873786,
+            41700030939322,
+            41700031496378
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_2.jpg?v=1769731864",
+          "width": 952,
+          "height": 1200
+        },
+        {
+          "id": 40556132073658,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/black_recycled_polyester_insulated_puffer_TCM4583-0164_1r.jpg?v=1784239883",
+          "width": 3240,
+          "height": 4320
+        },
+        {
+          "id": 32179515556026,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_1.jpg?v=1769731864",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 32179515850938,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_6.jpg?v=1769731864",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 32179515785402,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_recycled_polyester_insulated_puffer_TCM4583-0164_5.jpg?v=1769731864",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 38215054819514,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/CirrusCloudShell_-MeteoriteBlack_95_b0f46381-e76f-4642-ac53-f3b1b7c97b49.jpg?v=1769731864",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 35349095907514,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 7,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/CirrusCloudShell_-MeteoriteBlack_98_dc483b46-2554-49a8-a8e5-658471041ce6.jpg?v=1769731864",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 40556132106426,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 8,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/black_recycled_polyester_insulated_puffer_TCM4583-0164_166.jpg?v=1784240125",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 40556132139194,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 9,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/black_recycled_polyester_insulated_puffer_TCM4583-0164_14.jpg?v=1784240300",
+          "width": 3346,
+          "height": 4183
+        },
+        {
+          "id": 40556132171962,
+          "created_at": "2022-08-04T12:52:03-07:00",
+          "position": 10,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160740970682,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/black_recycled_polyester_insulated_puffer_TCM4583-0164_16.jpg?v=1784239944",
+          "width": 3346,
+          "height": 4183
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7160775016634,
+      "title": "Boulder Vest",
+      "handle": "womens-cloud-shell-puffer-vest-meteorite-black",
+      "body_html": "<p>Wear it on its own or as an extra warm layer under coats and jackets — this lightweight vest features technical details that make it perfect for anything, whatever your winter plans.</p>",
+      "published_at": "2026-08-28T10:01:56-07:00",
+      "created_at": "2022-08-04T15:43:36-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Womens",
+      "tags": [
+        "adventure-essentials",
+        "best-sellers",
+        "eco material: recycled polyester",
+        "FA25",
+        "FA25-get-outside",
+        "FW25-best-sellers",
+        "jackets-coats",
+        "outerwear",
+        "puffer",
+        "recycled-polyester",
+        "transitional-outerwear",
+        "vest",
+        "w",
+        "womens"
+      ],
+      "variants": [
+        {
+          "id": 41700421992634,
+          "title": "METEORITE BLACK / XS",
+          "option1": "METEORITE BLACK",
+          "option2": "XS",
+          "option3": null,
+          "sku": "TCW4487-0164-XS",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 31984821338298,
+            "created_at": "2022-08-04T15:43:36-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160775016634,
+            "variant_ids": [
+              41700421992634,
+              41700422123706,
+              41700422254778,
+              41700422484154,
+              41700422582458
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_2.jpg?v=1685130782",
+            "width": 960,
+            "height": 1200,
+            "alt": "black_puffer_vest_womens *Model is 5'10\", wearing size S"
+          },
+          "available": true,
+          "price": "178.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7160775016634,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700422123706,
+          "title": "METEORITE BLACK / S",
+          "option1": "METEORITE BLACK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCW4487-0164-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 31984821338298,
+            "created_at": "2022-08-04T15:43:36-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160775016634,
+            "variant_ids": [
+              41700421992634,
+              41700422123706,
+              41700422254778,
+              41700422484154,
+              41700422582458
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_2.jpg?v=1685130782",
+            "width": 960,
+            "height": 1200,
+            "alt": "black_puffer_vest_womens *Model is 5'10\", wearing size S"
+          },
+          "available": true,
+          "price": "178.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7160775016634,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700422254778,
+          "title": "METEORITE BLACK / M",
+          "option1": "METEORITE BLACK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCW4487-0164-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 31984821338298,
+            "created_at": "2022-08-04T15:43:36-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160775016634,
+            "variant_ids": [
+              41700421992634,
+              41700422123706,
+              41700422254778,
+              41700422484154,
+              41700422582458
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_2.jpg?v=1685130782",
+            "width": 960,
+            "height": 1200,
+            "alt": "black_puffer_vest_womens *Model is 5'10\", wearing size S"
+          },
+          "available": true,
+          "price": "178.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7160775016634,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700422484154,
+          "title": "METEORITE BLACK / L",
+          "option1": "METEORITE BLACK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCW4487-0164-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 31984821338298,
+            "created_at": "2022-08-04T15:43:36-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160775016634,
+            "variant_ids": [
+              41700421992634,
+              41700422123706,
+              41700422254778,
+              41700422484154,
+              41700422582458
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_2.jpg?v=1685130782",
+            "width": 960,
+            "height": 1200,
+            "alt": "black_puffer_vest_womens *Model is 5'10\", wearing size S"
+          },
+          "available": true,
+          "price": "178.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7160775016634,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 41700422582458,
+          "title": "METEORITE BLACK / XL",
+          "option1": "METEORITE BLACK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCW4487-0164-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 31984821338298,
+            "created_at": "2022-08-04T15:43:36-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7160775016634,
+            "variant_ids": [
+              41700421992634,
+              41700422123706,
+              41700422254778,
+              41700422484154,
+              41700422582458
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_2.jpg?v=1685130782",
+            "width": 960,
+            "height": 1200,
+            "alt": "black_puffer_vest_womens *Model is 5'10\", wearing size S"
+          },
+          "available": true,
+          "price": "178.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7160775016634,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 31984821338298,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [
+            41700421992634,
+            41700422123706,
+            41700422254778,
+            41700422484154,
+            41700422582458
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_2.jpg?v=1685130782",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821371066,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_3.jpg?v=1685130782",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821567674,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_9.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821403834,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_4.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821436602,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_5.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821469370,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_6.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821502138,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 7,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_7.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821534906,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 8,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_8.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 31984821305530,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 9,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/products/black_puffy_vest_TCW4487-01641_1.jpg?v=1695428885",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 38214976176314,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 10,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/CirrusCloudShell_-MeteoriteBlack_95_877c5671-4816-4966-b9be-070e89406720.jpg?v=1745261942",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 35349094858938,
+          "created_at": "2022-08-04T15:43:36-07:00",
+          "position": 11,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7160775016634,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/CirrusCloudShell_-MeteoriteBlack_98_7fbe75cd-f58a-484f-8ace-5ceaa2edd238.jpg?v=1745261942",
+          "width": 960,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7403333124282,
+      "title": "Palisade Full Zip",
+      "handle": "recycled-microfleece-zip-meteorite-black",
+      "body_html": "<p>A full zip microfleece that’s full of features that elevate your everyday. Add this super soft piece to your mid-layer collection — your adventure plans will thank you.</p>",
+      "published_at": "2026-08-28T10:01:54-07:00",
+      "created_at": "2023-07-06T00:14:41-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Womens",
+      "tags": [
+        "best-sellers",
+        "eco material: recycled polyester",
+        "FA25",
+        "fleece",
+        "FW25",
+        "hoodies-sweatshirts",
+        "loungewear",
+        "recycled-polyester",
+        "repreve",
+        "staff-picks-25",
+        "tops",
+        "w",
+        "womens",
+        "zip-up"
+      ],
+      "variants": [
+        {
+          "id": 42510752121018,
+          "title": "METEORITE BLACK / XS",
+          "option1": "METEORITE BLACK",
+          "option2": "XS",
+          "option3": null,
+          "sku": "TCW5611-0164-XS",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320553611450,
+            "created_at": "2023-07-06T00:14:41-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403333124282,
+            "variant_ids": [
+              42510752121018,
+              42510752153786,
+              42510752186554,
+              42510752219322,
+              42510752252090
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_2.jpg?v=1695330701",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater *Model is 5'11\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7403333124282,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510752153786,
+          "title": "METEORITE BLACK / S",
+          "option1": "METEORITE BLACK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCW5611-0164-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320553611450,
+            "created_at": "2023-07-06T00:14:41-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403333124282,
+            "variant_ids": [
+              42510752121018,
+              42510752153786,
+              42510752186554,
+              42510752219322,
+              42510752252090
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_2.jpg?v=1695330701",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater *Model is 5'11\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7403333124282,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510752186554,
+          "title": "METEORITE BLACK / M",
+          "option1": "METEORITE BLACK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCW5611-0164-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320553611450,
+            "created_at": "2023-07-06T00:14:41-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403333124282,
+            "variant_ids": [
+              42510752121018,
+              42510752153786,
+              42510752186554,
+              42510752219322,
+              42510752252090
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_2.jpg?v=1695330701",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater *Model is 5'11\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7403333124282,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510752219322,
+          "title": "METEORITE BLACK / L",
+          "option1": "METEORITE BLACK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCW5611-0164-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320553611450,
+            "created_at": "2023-07-06T00:14:41-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403333124282,
+            "variant_ids": [
+              42510752121018,
+              42510752153786,
+              42510752186554,
+              42510752219322,
+              42510752252090
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_2.jpg?v=1695330701",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater *Model is 5'11\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7403333124282,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510752252090,
+          "title": "METEORITE BLACK / XL",
+          "option1": "METEORITE BLACK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCW5611-0164-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320553611450,
+            "created_at": "2023-07-06T00:14:41-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403333124282,
+            "variant_ids": [
+              42510752121018,
+              42510752153786,
+              42510752186554,
+              42510752219322,
+              42510752252090
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_2.jpg?v=1695330701",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater *Model is 5'11\", wearing size S"
+          },
+          "available": true,
+          "price": "98.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7403333124282,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33320553611450,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403333124282,
+          "variant_ids": [
+            42510752121018,
+            42510752153786,
+            42510752186554,
+            42510752219322,
+            42510752252090
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_2.jpg?v=1695330701",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320554037434,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403333124282,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_1.jpg?v=1695330701",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320554365114,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403333124282,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_6.jpg?v=1695330701",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320554725562,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403333124282,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_4.jpg?v=1695330701",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320555151546,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403333124282,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_3.jpg?v=1695330701",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320555741370,
+          "created_at": "2023-07-06T00:14:41-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403333124282,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Recycled-Polyester-Mock-Neck-Full-Zip-Sweater-TCW5611-0164_5.jpg?v=1695330701",
+          "width": 960,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7403343937722,
+      "title": "Coastal Hybrid Hoodie",
+      "handle": "cloud-shell-hybrid-hoodie-meteorite-black",
+      "body_html": "<p>Stay dry and sustainable in this water-resistant hoodie-jacket hybrid, made from 100% recycled polyester. It doesn’t get much more planet-friendly (or snug) than this.</p>",
+      "published_at": "2026-08-28T10:01:51-07:00",
+      "created_at": "2023-07-06T00:19:08-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Mens",
+      "tags": [
+        "adventure-essentials",
+        "best-sellers",
+        "eco material: recycled polyester",
+        "FA25",
+        "FA25-launch",
+        "FA26-launch2",
+        "favourites",
+        "fleece",
+        "jacket",
+        "m",
+        "mens",
+        "recycled-polyester",
+        "staff-picks-25",
+        "tops",
+        "transitional-outerwear",
+        "zip-up"
+      ],
+      "variants": [
+        {
+          "id": 42510780629178,
+          "title": "METEORITE BLACK / S",
+          "option1": "METEORITE BLACK",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCM5411-0164-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320598438074,
+            "created_at": "2023-07-06T00:19:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403343937722,
+            "variant_ids": [
+              42510780629178,
+              42510780661946,
+              42510780727482,
+              42510780760250,
+              42510780793018
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_7_9e13cae7-dbb0-4dca-8e7d-ed13a8ebd4ba.jpg?v=1769731211",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Resistant-Zip-Up-Hoodie *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "168.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7403343937722,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510780661946,
+          "title": "METEORITE BLACK / M",
+          "option1": "METEORITE BLACK",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCM5411-0164-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320598438074,
+            "created_at": "2023-07-06T00:19:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403343937722,
+            "variant_ids": [
+              42510780629178,
+              42510780661946,
+              42510780727482,
+              42510780760250,
+              42510780793018
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_7_9e13cae7-dbb0-4dca-8e7d-ed13a8ebd4ba.jpg?v=1769731211",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Resistant-Zip-Up-Hoodie *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "168.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7403343937722,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510780727482,
+          "title": "METEORITE BLACK / L",
+          "option1": "METEORITE BLACK",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCM5411-0164-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320598438074,
+            "created_at": "2023-07-06T00:19:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403343937722,
+            "variant_ids": [
+              42510780629178,
+              42510780661946,
+              42510780727482,
+              42510780760250,
+              42510780793018
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_7_9e13cae7-dbb0-4dca-8e7d-ed13a8ebd4ba.jpg?v=1769731211",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Resistant-Zip-Up-Hoodie *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "168.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7403343937722,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510780760250,
+          "title": "METEORITE BLACK / XL",
+          "option1": "METEORITE BLACK",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCM5411-0164-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320598438074,
+            "created_at": "2023-07-06T00:19:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403343937722,
+            "variant_ids": [
+              42510780629178,
+              42510780661946,
+              42510780727482,
+              42510780760250,
+              42510780793018
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_7_9e13cae7-dbb0-4dca-8e7d-ed13a8ebd4ba.jpg?v=1769731211",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Resistant-Zip-Up-Hoodie *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "168.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7403343937722,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 42510780793018,
+          "title": "METEORITE BLACK / XXL",
+          "option1": "METEORITE BLACK",
+          "option2": "XXL",
+          "option3": null,
+          "sku": "TCM5411-0164-XXL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33320598438074,
+            "created_at": "2023-07-06T00:19:08-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7403343937722,
+            "variant_ids": [
+              42510780629178,
+              42510780661946,
+              42510780727482,
+              42510780760250,
+              42510780793018
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_7_9e13cae7-dbb0-4dca-8e7d-ed13a8ebd4ba.jpg?v=1769731211",
+            "width": 960,
+            "height": 1200,
+            "alt": "Black-Water-Resistant-Zip-Up-Hoodie *Model is 6'2\", wearing size M"
+          },
+          "available": true,
+          "price": "168.00",
+          "grams": 550,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7403343937722,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33320598438074,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [
+            42510780629178,
+            42510780661946,
+            42510780727482,
+            42510780760250,
+            42510780793018
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_7_9e13cae7-dbb0-4dca-8e7d-ed13a8ebd4ba.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 40556071616698,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/TCM5411-0164.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320597160122,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_1.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320596865210,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_2.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320597389498,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_3.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 33320597651642,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 6,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Black-Water-Resistant-Zip-Up-Hoodie-TCM5411-0164_6.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 35349073002682,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 7,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/CirrusCloudShell_-MeteoriteBlack_95TCM3541-0164_TCM3542-0164_TCM5411-0164_TCM5447-0164_TCW3532-0164_d3763f71-ee79-46ec-8ea8-3f09eebf9e0c.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 38215019004090,
+          "created_at": "2023-07-06T00:19:08-07:00",
+          "position": 8,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7403343937722,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/CirrusCloudShell_-MeteoriteBlack_98_a6149a24-cc84-4cfe-b8d3-5fb6e50f3dfc.jpg?v=1769731211",
+          "width": 960,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "METEORITE BLACK"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7854817542330,
+      "title": "Livingston Jacket",
+      "handle": "heavy-weight-flannel-long-jacket-midnight-blue-cabin-plaid",
+      "body_html": "<p>Get wrapped up in the cozy durability of our long plaid jacket. Made from organic cotton, this classic button-up is your perfect companion for all your fall adventures.</p>",
+      "published_at": "2026-08-28T10:01:48-07:00",
+      "created_at": "2024-06-13T14:03:40-07:00",
+      "updated_at": "2026-09-14T01:07:46-07:00",
+      "vendor": "tentree",
+      "product_type": "Womens",
+      "tags": [
+        "best-sellers",
+        "FA25",
+        "FA24-new-style",
+        "FA26-launch2",
+        "FW25-favourites",
+        "jacket",
+        "jackets-coats",
+        "organic-cotton",
+        "outerwear",
+        "patterns-plaids",
+        "tops",
+        "w",
+        "womens"
+      ],
+      "variants": [
+        {
+          "id": 43815855292602,
+          "title": "MIDNIGHT BLUE CABIN PLAID / XS",
+          "option1": "MIDNIGHT BLUE CABIN PLAID",
+          "option2": "XS",
+          "option3": null,
+          "sku": "TCW5971-3567-XS",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 34911406653626,
+            "created_at": "2024-06-13T14:03:40-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7854817542330,
+            "variant_ids": [
+              43815855292602,
+              43815855325370,
+              43815855358138,
+              43815855390906,
+              43815855423674
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_1.jpg?v=1769731411",
+            "width": 960,
+            "height": 1200,
+            "alt": "Blue-Relaxed-Fit-Knee-Length-Long-Jacket *Model is 5'7\", wearing size S"
+          },
+          "available": true,
+          "price": "198.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 7854817542330,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 43815855325370,
+          "title": "MIDNIGHT BLUE CABIN PLAID / S",
+          "option1": "MIDNIGHT BLUE CABIN PLAID",
+          "option2": "S",
+          "option3": null,
+          "sku": "TCW5971-3567-S",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 34911406653626,
+            "created_at": "2024-06-13T14:03:40-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7854817542330,
+            "variant_ids": [
+              43815855292602,
+              43815855325370,
+              43815855358138,
+              43815855390906,
+              43815855423674
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_1.jpg?v=1769731411",
+            "width": 960,
+            "height": 1200,
+            "alt": "Blue-Relaxed-Fit-Knee-Length-Long-Jacket *Model is 5'7\", wearing size S"
+          },
+          "available": true,
+          "price": "198.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 7854817542330,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 43815855358138,
+          "title": "MIDNIGHT BLUE CABIN PLAID / M",
+          "option1": "MIDNIGHT BLUE CABIN PLAID",
+          "option2": "M",
+          "option3": null,
+          "sku": "TCW5971-3567-M",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 34911406653626,
+            "created_at": "2024-06-13T14:03:40-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7854817542330,
+            "variant_ids": [
+              43815855292602,
+              43815855325370,
+              43815855358138,
+              43815855390906,
+              43815855423674
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_1.jpg?v=1769731411",
+            "width": 960,
+            "height": 1200,
+            "alt": "Blue-Relaxed-Fit-Knee-Length-Long-Jacket *Model is 5'7\", wearing size S"
+          },
+          "available": true,
+          "price": "198.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 7854817542330,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 43815855390906,
+          "title": "MIDNIGHT BLUE CABIN PLAID / L",
+          "option1": "MIDNIGHT BLUE CABIN PLAID",
+          "option2": "L",
+          "option3": null,
+          "sku": "TCW5971-3567-L",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 34911406653626,
+            "created_at": "2024-06-13T14:03:40-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7854817542330,
+            "variant_ids": [
+              43815855292602,
+              43815855325370,
+              43815855358138,
+              43815855390906,
+              43815855423674
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_1.jpg?v=1769731411",
+            "width": 960,
+            "height": 1200,
+            "alt": "Blue-Relaxed-Fit-Knee-Length-Long-Jacket *Model is 5'7\", wearing size S"
+          },
+          "available": true,
+          "price": "198.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 7854817542330,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        },
+        {
+          "id": 43815855423674,
+          "title": "MIDNIGHT BLUE CABIN PLAID / XL",
+          "option1": "MIDNIGHT BLUE CABIN PLAID",
+          "option2": "XL",
+          "option3": null,
+          "sku": "TCW5971-3567-XL",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 34911406653626,
+            "created_at": "2024-06-13T14:03:40-07:00",
+            "position": 1,
+            "updated_at": "2026-09-14T01:07:46-07:00",
+            "product_id": 7854817542330,
+            "variant_ids": [
+              43815855292602,
+              43815855325370,
+              43815855358138,
+              43815855390906,
+              43815855423674
+            ],
+            "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_1.jpg?v=1769731411",
+            "width": 960,
+            "height": 1200,
+            "alt": "Blue-Relaxed-Fit-Knee-Length-Long-Jacket *Model is 5'7\", wearing size S"
+          },
+          "available": true,
+          "price": "198.00",
+          "grams": 700,
+          "compare_at_price": null,
+          "position": 5,
+          "product_id": 7854817542330,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "updated_at": "2026-09-14T01:07:46-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 34911406653626,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "position": 1,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7854817542330,
+          "variant_ids": [
+            43815855292602,
+            43815855325370,
+            43815855358138,
+            43815855390906,
+            43815855423674
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_1.jpg?v=1769731411",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 34911406555322,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "position": 2,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7854817542330,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_5.jpg?v=1769731411",
+          "width": 952,
+          "height": 1200
+        },
+        {
+          "id": 34911406588090,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "position": 3,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7854817542330,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_2.jpg?v=1769731411",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 40556092260538,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "position": 4,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7854817542330,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_4_67f399c7-3e04-48ca-b899-d4f40db95acb.jpg?v=1769731411",
+          "width": 960,
+          "height": 1200
+        },
+        {
+          "id": 34911406620858,
+          "created_at": "2024-06-13T14:03:40-07:00",
+          "position": 5,
+          "updated_at": "2026-09-14T01:07:46-07:00",
+          "product_id": 7854817542330,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/2341/3995/files/Blue-Relaxed-Fit-Knee-Length-Long-Jacket-TCW5971-3567_3.jpg?v=1769731411",
+          "width": 960,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "MIDNIGHT BLUE CABIN PLAID"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ]
+    }
+  ]
+}
