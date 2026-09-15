@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Shop\CartController;
 use App\Http\Controllers\Shop\CatalogController;
 use App\Http\Controllers\Shop\CheckoutController;
+use App\Http\Controllers\Shop\GiftCardController;
 use App\Http\Controllers\Shop\HomeController;
 use App\Http\Controllers\Shop\LegalController;
 use App\Http\Controllers\Shop\ProductController;
@@ -33,6 +34,11 @@ Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
 Route::get('/orders/{orderNumber}/success', [CheckoutController::class, 'success'])->name('orders.success');
 Route::get('/orders/{orderNumber}/invoice', [CheckoutController::class, 'invoice'])->name('orders.invoice');
+
+// Gift Cards Studio & Generation
+Route::get('/gift-cards', [GiftCardController::class, 'index'])->name('gift-cards.index');
+Route::post('/gift-cards/generate', [GiftCardController::class, 'store'])->name('gift-cards.generate');
+Route::post('/gift-cards/balance', [GiftCardController::class, 'checkBalance'])->name('gift-cards.balance');
 
 // Legal & Information Pages
 Route::get('/terms', [LegalController::class, 'terms'])->name('legal.terms');

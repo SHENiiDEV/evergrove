@@ -26,6 +26,7 @@ class Navigation
             ...$items,
             ['label' => 'New in', 'href' => route('catalog', ['sort' => 'newest'])],
             ['label' => 'Sale', 'href' => route('catalog', ['price' => ['under-100']])],
+            ['label' => 'Gift Cards', 'href' => route('gift-cards.index')],
         ];
     }
 
@@ -91,10 +92,11 @@ class Navigation
                 ],
             ],
             [
-                'heading' => 'Help',
+                'heading' => 'Help & Services',
                 'items' => [
                     ['label' => 'Delivery', 'href' => route('legal.shipping')],
                     ['label' => 'Returns', 'href' => route('legal.returns')],
+                    ['label' => 'Digital Gift Cards', 'href' => route('gift-cards.index')],
                     ['label' => 'Size guide', 'href' => route('legal.sizeGuide')],
                     ['label' => 'Contact us', 'href' => route('legal.contact')],
                 ],
