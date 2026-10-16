@@ -45,10 +45,18 @@ class CustomerDashboardTest extends TestCase
         $this->assertNull($guestOrder->user_id);
 
         $response = $this->post('/register', [
-            'name' => 'Elena Rostova',
+            'first_name' => 'Elena',
+            'last_name' => 'Rostova',
             'email' => 'client@evergrove.co.uk',
+            'phone' => '+49 170 1234567',
+            'date_of_birth' => '1992-06-15',
+            'address_line1' => 'Kurfürstendamm 12',
+            'city' => 'Berlin',
+            'country' => 'Germany',
+            'postal_code' => '10719',
             'password' => 'secretPassword123!',
             'password_confirmation' => 'secretPassword123!',
+            'terms' => true,
         ]);
 
         $response->assertRedirect('/dashboard');

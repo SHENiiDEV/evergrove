@@ -50,18 +50,18 @@ export default function CheckoutIndex({ countries, shipping: shippingConfig, err
     const price = usePrice();
 
     const nameParts = (auth?.user?.name || '').trim().split(' ');
-    const initialFirstName = nameParts[0] || '';
-    const initialLastName = nameParts.slice(1).join(' ') || '';
+    const initialFirstName = auth?.user?.first_name || nameParts[0] || '';
+    const initialLastName = auth?.user?.last_name || nameParts.slice(1).join(' ') || '';
 
     const [form, setForm] = useState({
         email: auth?.user?.email || '',
         first_name: initialFirstName,
         last_name: initialLastName,
-        phone: '',
-        shipping_address_line1: '',
+        phone: auth?.user?.phone || '',
+        shipping_address_line1: auth?.user?.address_line1 || '',
         shipping_address_line2: '',
-        city: '',
-        postal_code: '',
+        city: auth?.user?.city || '',
+        postal_code: auth?.user?.postal_code || '',
         country_code: 'DE',
         notes: '',
     });

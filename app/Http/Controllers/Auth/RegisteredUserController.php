@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Models\Order;
 use App\Models\User;
+use App\Support\WorldCountries;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -22,7 +23,9 @@ class RegisteredUserController extends Controller
      */
     public function create(): Response
     {
-        return Inertia::render('Auth/Register');
+        return Inertia::render('Auth/Register', [
+            'countries' => WorldCountries::allowed(),
+        ]);
     }
 
     /**
@@ -32,16 +35,43 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|lowercase|email|max:255|unique:'.User::class,
+        $allowedCountries = WorldCountries::allowed();
+
+        $validated = $request->validate([
+            'first_name' => ['required_without:name', 'nullable', 'string', 'max:100'],
+            'last_name' => ['required_without:name', 'nullable', 'string', 'max:100'],
+            'name' => ['nullable', 'string', 'max:255'],
+            'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
+            'phone' => ['nullable', 'string', 'max:30'],
+            'date_of_birth' => ['nullable', 'date', 'before:today'],
+            'address_line1' => ['nullable', 'string', 'max:255'],
+            'city' => ['nullable', 'string', 'max:100'],
+            'country' => ['nullable', 'string', 'in:'.implode(',', $allowedCountries)],
+            'postal_code' => ['nullable', 'string', 'max:20'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'terms' => ['accepted'],
+        ], [
+            'terms.accepted' => 'You must agree to the Terms & Conditions and Privacy Policy.',
+            'country.in' => 'The selected country is not available for registration.',
         ]);
 
+        $firstName = $validated['first_name'] ?? (explode(' ', trim($validated['name'] ?? ''))[0] ?? '');
+        $lastName = $validated['last_name'] ?? (implode(' ', array_slice(explode(' ', trim($validated['name'] ?? '')), 1)) ?: '');
+        $fullName = trim("{$firstName} {$lastName}") ?: ($validated['name'] ?? 'Customer');
+
         $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
+            'name' => $fullName,
+            'first_name' => $firstName,
+            'last_name' => $lastName,
+            'email' => $validated['email'],
+            'phone' => $validated['phone'] ?? null,
+            'date_of_birth' => $validated['date_of_birth'] ?? null,
+            'address_line1' => $validated['address_line1'] ?? null,
+            'city' => $validated['city'] ?? null,
+            'country' => $validated['country'] ?? null,
+            'postal_code' => $validated['postal_code'] ?? null,
+            'terms_accepted_at' => now(),
+            'password' => Hash::make($validated['password']),
         ]);
 
         Order::where('email', $user->email)
