@@ -2,7 +2,8 @@ import Breadcrumbs from '@/Components/store/Breadcrumbs';
 import { useCart } from '@/Context/CartContext';
 import StoreLayout from '@/Layouts/StoreLayout';
 import { usePrice } from '@/lib/format';
-import { Head, Link, router } from '@inertiajs/react';
+import { PageProps } from '@/types';
+import { Head, Link, router, usePage } from '@inertiajs/react';
 import {
     CheckCircle2,
     CreditCard,
@@ -30,6 +31,7 @@ interface CheckoutProps {
 }
 
 export default function CheckoutIndex({ countries, shipping: shippingConfig, errors = {} }: CheckoutProps) {
+    const { auth } = usePage<PageProps>().props;
     const {
         items,
         subtotal,
@@ -47,10 +49,14 @@ export default function CheckoutIndex({ countries, shipping: shippingConfig, err
 
     const price = usePrice();
 
+    const nameParts = (auth?.user?.name || '').trim().split(' ');
+    const initialFirstName = nameParts[0] || '';
+    const initialLastName = nameParts.slice(1).join(' ') || '';
+
     const [form, setForm] = useState({
-        email: '',
-        first_name: '',
-        last_name: '',
+        email: auth?.user?.email || '',
+        first_name: initialFirstName,
+        last_name: initialLastName,
         phone: '',
         shipping_address_line1: '',
         shipping_address_line2: '',

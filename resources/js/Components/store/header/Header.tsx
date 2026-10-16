@@ -121,10 +121,14 @@ export default function Header({
                             href={
                                 auth.user ? route('dashboard') : route('login')
                             }
-                            aria-label={auth.user ? 'Account' : 'Sign in'}
-                            className={cn(iconButton, 'hidden sm:grid')}
+                            aria-label={auth.user ? `Account (${auth.user.name})` : 'Sign in'}
+                            title={auth.user ? `Account (${auth.user.name})` : 'Sign in'}
+                            className={cn(iconButton, 'hidden sm:grid relative')}
                         >
                             <User className="h-5 w-5" strokeWidth={1.5} />
+                            {auth.user && (
+                                <span className="absolute bottom-2 right-2 h-1.5 w-1.5 rounded-full bg-forest ring-1 ring-paper" />
+                            )}
                         </Link>
 
                         <button

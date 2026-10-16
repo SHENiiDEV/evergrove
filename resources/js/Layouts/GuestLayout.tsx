@@ -1,19 +1,20 @@
-import ApplicationLogo from '@/Components/ApplicationLogo';
-import { Link } from '@inertiajs/react';
+import StoreLayout from '@/Layouts/StoreLayout';
 import { PropsWithChildren } from 'react';
 
 export default function Guest({ children }: PropsWithChildren) {
     return (
-        <div className="flex min-h-screen flex-col items-center bg-gray-100 pt-6 sm:justify-center sm:pt-0">
-            <div>
-                <Link href="/">
-                    <ApplicationLogo className="h-20 w-20 fill-current text-gray-500" />
-                </Link>
-            </div>
+        <StoreLayout>
+            <div className="relative flex min-h-[calc(100vh-140px)] flex-col justify-center py-12 sm:py-16 lg:py-24">
+                {/* Subtle luxury ambient glow */}
+                <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+                    <div className="absolute left-1/2 top-0 h-[480px] w-[800px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-forest/5 blur-3xl" />
+                </div>
 
-            <div className="mt-6 w-full overflow-hidden bg-white px-6 py-4 shadow-md sm:max-w-md sm:rounded-lg">
-                {children}
+                <div className="mx-auto w-full max-w-[480px] px-4 sm:px-6">
+                    {children}
+                </div>
             </div>
-        </div>
+        </StoreLayout>
     );
 }
+

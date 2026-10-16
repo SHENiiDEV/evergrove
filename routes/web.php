@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Customer\CustomerDashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Shop\CartController;
 use App\Http\Controllers\Shop\CatalogController;
@@ -15,7 +16,6 @@ use App\Models\OrderItem;
 use App\Support\ProductCatalog;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 Route::get('/', HomeController::class)->name('home');
 
@@ -169,9 +169,9 @@ Route::get('/mail/preview/invoice', function () {
     return $pdf->stream("invoice-{$order->order_number}.pdf");
 })->name('mail.preview.invoice');
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [CustomerDashboardController::class, 'index'])
+    ->middleware(['auth'])
+    ->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

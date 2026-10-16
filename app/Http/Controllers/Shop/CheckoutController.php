@@ -164,6 +164,7 @@ class CheckoutController extends Controller
 
         try {
             $order = Order::create([
+                'user_id' => $request->user()?->id,
                 'order_number' => Order::generateOrderNumber(),
                 'email' => $validated['email'],
                 'first_name' => $validated['first_name'],
